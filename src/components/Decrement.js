@@ -29,6 +29,6 @@ class Decrement extends Component {
   }
 }
 
-Decrement.propTypes = { name: PropTypes.number.isRequired };
+Decrement.propTypes = { start: PropTypes.number.isRequired };
 
 export default Decrement;
